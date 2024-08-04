@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Inter", sans-serif;
+    background: #000000;
+}
+@font-face {
+    font-family: miama ;
+    src: url(../font/Real\ Miami.ttf);
+}
+
+
+/* header section starts here */
+
+.nav-cointainer{
+    width: 1060px;
+    height: 46px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.nav-cointainer li{
+    list-style: none;
+    display: inline;
+    margin-right: 30pxpx;
+}
+.nav-cointainer a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+}
+.nav-cointainer h2{
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 800;
+}
+.nav-links{
+    padding: 10px;
+}
+.home{
+    width: 92px;
+    height: 38px;
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    border: none;  }
+
+
+.nav-content{
+        border: 0.5px solid white;
+        border-radius: 30px;
+        justify-content: space-evenly;
+    }   
+/* header section end  here */
+
+
+
+
+
+/* banner section starts here */
+
+.Banner-section{
+    width: 1060px;
+    height: 580px;
+    margin-top: 32px;
+    margin: 0 auto;
+}
+
+/* banner section end here */
