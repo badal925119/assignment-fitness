@@ -1,1 +1,187 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* habit section start hare */
+
+
+.habit-section{
+    width: 1440px;
+    
+    margin: 0 auto;
+    background-color: black;
+}
+
+.habit-text{
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0;
+}
+.habit-text h1{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 82px;
+}
+.habit-text p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 12px;
+}
+.habit-img{
+    width: 231px;
+    height: 274px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.habit-img img{
+    border-radius: 50%;
+    border: .5px solid white;
+}
+.habit-img h3{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.habit-img p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 8px;
+    margin-left: 24px;
+}
+.habit-icon{
+    width: 1044px;
+    height: 452px;
+    margin: 0 auto;
+    margin-top: 110px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+/* habit section end hare */
+
+
+/* rub section start here */
+
+.run-section{
+    width: 1440px;
+    margin: 0 auto;
+    background-color: black;
+}
+.run-item{
+    width: 1060px;
+    height: 371px;
+    margin: 0 auto;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+}
+.run-item{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.run-text{
+    width: 50%;
+}
+.run-text h1{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+}
+.run-text p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top:15px ;
+}
+.run-text button{
+    width: 224px;
+    height: 54px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.run-img img{
+    width: 366px;
+    height: 312px;
+    border-radius: 20px;  
+}
+
+/* rub section  hereend */
+
+/* team section start here */
+
+.team-section{
+    width: 1440px;
+    /* height: 782px; */
+    background-color: black;
+    margin: 0 auto;
+}
+.team-text{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.team-text h1{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top:110px;
+}
+.team-text p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 13px;
+}
+.team-icon{
+    width: 1060px;
+    height: 604px;
+    margin: 0 auto;
+    margin-top: 60px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-content: center;
+}
+.team-icon img{
+    width: 326.67px;
+    height: 272px;
+    border-radius: 18px;
+    margin-left: 12px;
+
+}
+/* team section end here */
+
+
+/* footer section start here */
+
+
+/* footer section end here */
