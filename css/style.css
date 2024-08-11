@@ -6,6 +6,69 @@
     box-sizing: border-box;
 }
 
+/* header section start here */
+
+.header-section{
+    width: 1440px;
+    height: 715px;
+    background-color: black;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+.navbar{
+    width: 1060px;
+    height: 46px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-item{
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+
+}
+.nav-icon h1{
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 800;
+}
+.nav-item{
+    width: 465px;
+    height: 46px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+
+
+}
+.nav-item button{
+    width: 92px;
+    height: 38px;
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    margin-top: 4px;
+    
+}
+.nav-item li{
+    display: inline-block;
+    margin-left: 43px;
+    margin-top: 9px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+}
+/* header section end here */
+
 
 /* habit section start hare */
 
