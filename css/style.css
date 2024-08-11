@@ -133,7 +133,7 @@
 
 .team-section{
     width: 1440px;
-    /* height: 782px; */
+    height: 982px;
     background-color: black;
     margin: 0 auto;
 }
@@ -182,6 +182,69 @@
 
 
 /* footer section start here */
+.footer-setion{
+    width: 1440px;
+    height: 499px;
+    margin: 0 auto;
+    background: #1a1a1a;
+}
+.footer{
+    width: 1059px;
+    margin: 0 auto;
+    /* margin-top: 56px; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 77px;
 
+}
 
+.footee-text1 h1{
+    width: 256px;
+    height: 84px;
+    color: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 70px;
+    font-weight: 800;
+    margin-bottom: 11px;margin-top: 55px;
+}
+.footee-text1 {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+}
+.footee-text2 li,.footee-text3 li{
+    list-style: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 23px;
+    font-weight: 400;
+    padding: 10px;
+}
+.footee-text2 h1,.footee-text3 h1{
+    width: 181px;
+    height: 38px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 55px;
+}
+hr{
+    width: 1059.5px;
+    margin: 0 auto;
+    margin-top: 66px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+.copy{
+    width: 318px;
+    height: 24px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 544px;
+    margin-top: 66px;
+ 
+}
 /* footer section end here */
