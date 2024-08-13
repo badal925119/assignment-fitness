@@ -69,6 +69,7 @@
 }
 .banner-img{
     width: 50%;
+    position: relative;
 }
 .banner-img img{
     width: 349px;
@@ -76,6 +77,79 @@
     margin-top: 33px;
     margin-left: 144px;
 }
+.cld1{
+    width: 193px;
+    height: 98px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    top: 28%;
+    left: 73%;
+}
+.cld1 h4{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 900;
+    width: 116px;
+    height: 40px;
+    margin-left: 33px;
+    margin-top: 11px;
+}
+.cld1 p{
+    width: 146px;
+    height: 20px;
+    color: rgba(255, 255, 255, 0.65);
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: 33px;
+    margin-top: 11px;
+}
+.cld2{
+    position: absolute;
+    top: 72%;
+    left: 7%;
+    width: 206px;
+    height: 96px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+}
+.cld2 h1{
+    width: 68px;
+    height: 24px;
+    color: rgb(250, 250, 249);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 900;
+    margin-left: 55px;
+    margin-top: 11px;
+}
+.cld2 div{
+    position: absolute;
+    width: 40px;
+height: 40px;
+background: rgb(230, 83, 60);
+border-radius: 50%;
+top: 25%;
+left: 5%;
+}
+.cld2 p{
+    width: 108px;
+    height: 24px;
+    color: rgba(239, 237, 232, 0.65);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 55px;
+    margin-top: 11px;
+ }
 .navbar{
     width: 1060px;
     height: 46px;
